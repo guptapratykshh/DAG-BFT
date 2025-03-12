@@ -96,4 +96,4 @@ func testFabftAsync() {
 	done := make(chan struct{})
 	go hookShutdownSignal(done)
 	<-done
-}
+} 
